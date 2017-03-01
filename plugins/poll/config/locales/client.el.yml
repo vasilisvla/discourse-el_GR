@@ -9,7 +9,19 @@ el_GR:
         other: "συνολικές ψήφοι"
       average_rating: "Μέση βαθμολογία: <strong>%{average}</strong>."
       public:
-        title: "Δημόσιες ψηφοφορίες"
+        title: "Οι ψηφοφορίες είναι δημόσιες "
+      multiple:
+        help:
+          at_least_min_options:
+            one: "Επιλέξτε τουλάχιστον <strong>1</strong> επιλογή"
+            other: "Επιλέξτε τουλάχιστον <strong>%{count}</strong> επιλογές"
+          up_to_max_options:
+            one: "Επιλέξτε μέχρι  <strong>1</strong> επιλογή"
+            other: "Επιλέξτε μέχρι  <strong>%{count}</strong> επιλογές"
+          x_options:
+            one: "Επιλέξτε <strong>1</strong>  επιλογή"
+            other: "Επιλέξτε <strong>%{count}</strong> επιλογές"
+          between_min_and_max_options: "Επιλέξτε ανάμεσα σε <strong>%{min}</strong> και <strong>%{max}</strong> επιλογές"
       cast-votes:
         title: "Δώσε τις ψήφους σου"
         label: "Ψήφισε τώρα!"
@@ -27,6 +39,8 @@ el_GR:
         title: "Να κλείσει η ψηφοφορία"
         label: "Κλείσιμο"
         confirm: "Σίγουρα θες να κλείσεις αυτή την ψηφοφορία;"
+      error_while_toggling_status: "Λυπούμαστε, παρουσιάστηκε ένα σφάλμα σχετικά με την εναλλαγή της κατάστασης αυτής της δημοσκόπησης."
+      error_while_casting_votes: "Λυπούμαστε, παρουσιάστηκε ένα σφάλμα με τις ψήφους σας."
       error_while_fetching_voters: "Συγνώμη, παρουσιάστηκε ένα σφάλμα κατά την διαδικασία εμφάνισης των ψηφοφόρων."
       ui_builder:
         title: Δημιουργία Ψηφοφορίας
@@ -37,6 +51,7 @@ el_GR:
           label: Τύπος
           regular: Μία επιλογή
           multiple: Πολλαπλές επιλογές
+          number: Αξιολόγηση αριθμoύ
         poll_config:
           max: Μέγιστο
           min: Ελάχιστο
